@@ -156,3 +156,54 @@ console.log(firstName.includes('w'));
 
 console.log(firstName.trim(''));
 
+// back ticks
+let nameOne = "frank"
+let nameTwo = "dev"
+let allNmaes = `${nameOne} ${nameTwo}`;
+console.log(allNmaes);
+
+// challenge
+let favActorFirstName = "Obinna";
+console.log(favActorFirstName);
+let favActorLastName = "Oga";
+let twoNames = favActorFirstName + " " + favActorLastName;
+console.log(twoNames);
+let uppercase = twoNames.toUpperCase();
+console.log(uppercase);
+let message = `my favourite Actor is ${uppercase}, he is the best`;
+message += "his best show is silicon valley";
+console.log(message);
+
+// type conversion
+let money = "50";
+
+// converting String to Number
+money = parseInt(money);
+console.log(money);
+console.log(typeof money);
+
+money = +money;
+console.log(money);
+console.log(typeof money);
+
+money = Number(money);
+console.log(money);
+console.log(typeof money);
+
+// converting number to string
+let cash = 80;
+cash = cash.toString();
+console.log(cash)
+console.log(typeof cash);
+cash = String(cash);
+console.log(cash);
+console.log(typeof cash);
+
+// converting string to decimal
+let mone = "50.254";
+mone = parseFloat(mone);
+console.log(mone);
+console.log(typeof mone);
+
+
+
