@@ -57,7 +57,102 @@ console.log(firstFavNumber + secondFavNumber);
 console.log(firstFavNumber - secondFavNumber);
 console.log(firstFavNumber * secondFavNumber);
 console.log(firstFavNumber / secondFavNumber);
-console.log(firstFavNumber % secondFavNumber)
+console.log(firstFavNumber % secondFavNumber);
 console.log(firstFavNumber ** secondFavNumber);
 
 // Booleans
+let isTrue = true;
+console.log(isTrue);
+
+// falsey values
+// false
+// null
+// undefined
+// 0
+// -0
+// NaN
+// '', "",``(empty quotes)
+
+let isJsProgrammingLanguage = true;
+let isJsHard = false;
+let favNumber = 100;
+console.log(isJsProgrammingLanguage);
+console.log(isJsHard);
+console.log(favNumber + undefined);
+
+// comparison operators
+// relational operators
+// greater than, less than, graeter than or equal to, less than or equal to,
+
+console.log(10 > 10);
+console.log(10 < 50);
+console.log(10 >= 10);
+console.log(10 <= 10);
+
+// Equality operators
+// === strict equality(type + value)
+//     !=== strict non - equality operators(type + value)
+//         = lose equality operator(value)
+//             != non equality opererator
+console.log(10 === 10);
+console.log(10 === '10');
+console.log(10 !== 10);
+console.log(10 !== '10');
+// localStorage: returns true
+// console.log(10 = 10);
+// console.log(10 = '10');
+
+// challenge
+let firstFavNumb = 100;
+let secondFavNumb = 80;
+console.log(firstFavNumb > secondFavNumb);
+console.log(firstFavNumb < secondFavNumb);
+console.log(firstFavNumb >= secondFavNumb);
+console.log(firstFavNumb <= secondFavNumb);
+console.log(firstFavNumb === secondFavNumb);
+console.log(firstFavNumb = secondFavNumb);
+console.log(firstFavNumb !== secondFavNumb);
+console.log(firstFavNumb != secondFavNumb);
+
+// strings
+let firstName = 'elias  '
+let secondName = 'alakala'
+let thirdName = `wafula`
+console.log(firstName);
+console.log(secondName);
+console.log(thirdName);
+
+// string Concatenation
+let fullName = firstName + secondName;
+console.log(fullName);
+
+// or
+
+let myName = firstName.concat(secondName);
+console.log(myName);
+
+// append
+firstName += "champion"
+
+console.log(firstName);
+
+// length
+console.log(firstName.length);
+
+// cases
+console.log(firstName.toLowerCase());
+console.log(firstName.toUpperCase());
+
+// slice
+console.log(firstName.slice(0, 10));
+
+// split and join methods
+console.log(firstName.split('').join(''));
+
+// includes
+console.log(firstName.includes('w'));
+
+// trim: removes the spaces
+
+console.log(firstName.trim(''));
+
