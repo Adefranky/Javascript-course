@@ -335,3 +335,29 @@ switch (fruit) {
 }
 
 // for loops in js
+// for(initialExpression; condition; incremental expression) {}
+
+// for (let index = 0; index < array.length; index++) {
+//     const element = array[index];
+
+// }
+
+for (let i = 0; i <= 5; i++) {
+    console.log('Hello world', i);
+}
+
+// nested loop
+for (let i = 1; i < - 5; i++) {
+    console.log('---Outr Loop', i)
+    // nested loop
+    for (let j = 1; j <= 5; j++) {
+        console.log(" ---inner loop--, j")
+    }
+}
+
+// challenge
+for (let i = 0; i <= 10; i++) {
+    console.log('Franky', i)
+}
+
+
