@@ -261,3 +261,77 @@ if (password === 8) {
 }
 
 // switch statements
+// switch (expression) {
+//     case x:
+//         print
+//         break;
+//     case y:
+//         print
+//         break;
+
+// }
+
+let x = 0
+let bulb;
+
+switch (x) {
+    case 0:
+        bulb = "off";
+        console.log(bulb);
+        break;
+    case 1:
+        bulb = "on";
+        console.log(bulb);
+        break;
+    default:
+        bulb = "no value found";
+        console.log(bulb);
+}
+
+
+let day = 'monday'
+
+switch (day) {
+    case 'monday':
+        console.log('today is monday')
+        break;
+    case 'tuesday':
+        console.log('today is tuesday')
+        break;
+    case 'wednesday':
+        console.log('today is wednesday')
+        break;
+    case 'thursday':
+        console.log('today is thursday')
+        break;
+    case 'saturday':
+        console.log('today is saturday')
+        break;
+    case 'sunday':
+        console.log('today is sunday')
+        break;
+    default:
+        console.log('no day to choose');
+
+
+
+}
+
+// challenge
+let fruit = "banana";
+
+switch (fruit) {
+    case 'banana':
+        console.log('banana is good')
+        break;
+    case 'orange':
+        console.log('i ma not a fan of orange')
+        break;
+    case 'apple':
+        console.log('how you like them apples')
+        break;
+    default:
+        console.log('i have never heard of that fruit');
+}
+
+// for loops in js
