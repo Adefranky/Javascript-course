@@ -377,5 +377,20 @@ while (j <= 10) {
     j++;
 }
 
+// do while loop
+let l = 1;
+do {
+    console.log("hello world", l)
+    l++;
+}
+while (
+    l <= 5
+);
 
+// challenge
+let k = 20;
+do {
+    console.log("Elias", k);
+    k++;
 
+} while (k <= 25);
