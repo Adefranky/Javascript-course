@@ -394,3 +394,39 @@ do {
     k++;
 
 } while (k <= 25);
+
+// logical operators
+// logical AND(&&) - TRUE if all the operators are true
+
+const e = true;
+const f = true;
+const g = 4;
+console.log(e && f);
+console.log(g > 2 && g < 2)
+
+
+
+// logical OR(||) - TRUE if either of the operators is true
+
+console.log(e || f);
+console.log(f || f);
+console.log(g > 2 || g < 2);
+//     logical NOT(!) - TRUE if the operands are false
+console.log(!e);
+console.log(!f);
+
+
+let secret = "frankyDev"
+if (secret >= 8 && secret.includes('Dev')) {
+    console.log('valid')
+} else {
+    console.log('invalid password')
+}
+
+if (secret >= 8 || secret.includes("Dev")) {
+    console.log('valid')
+} else {
+    console.log('inalid password')
+}
+
+// Arrays - 0 index based
