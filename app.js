@@ -360,4 +360,22 @@ for (let i = 0; i <= 10; i++) {
     console.log('Franky', i)
 }
 
+// while loop
+// while (condition){
+// code blockto be executed}
+
+let i = 1
+while (i <= 5) {
+    console.log('Hello world', i);
+    i++;
+}
+
+// challenge
+let j = 10;
+while (j <= 10) {
+    console.log("Frankelias", j);
+    j++;
+}
+
+
 
