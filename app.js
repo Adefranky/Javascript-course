@@ -467,4 +467,43 @@ console.log([2]);
 console.log([3]);
 
 
+const fruity = ["apple", "mango", "banana", "oranges", "pineapple", "grapefruit"
 
+];
+
+console.log(fruity);
+fruity.push('melon');
+console.log(fruity);
+
+
+fruity.pop();
+console.log(fruity);
+
+fruity.shift();
+console.log(fruity);
+
+fruity.unshift("avocado");
+console.log(fruity);
+
+const newFruits = ['apple', 'pomegranate', 'mango'];
+const moreFruits = ['strawberries', 'pineapple', 'grapefruit'];
+
+const totalFruits = newFruits.concat(moreFruits);
+console.log(totalFruits);
+
+// Intermeddiate arrays methods
+const pl = ['javascript', 'Golang', 'python', 'PHP'];
+const numeric = [3, 5, 2, 4, 1];
+
+console.log(pl);
+console.log(pl.reverse());
+
+console.log(pl.includes('Golang'));
+
+console.log(pl.join("-"))
+
+console.log(pl.slice(0, 2));
+
+console.log(numeric);
+
+console.log(numeric.sort());
