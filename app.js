@@ -507,3 +507,49 @@ console.log(pl.slice(0, 2));
 console.log(numeric);
 
 console.log(numeric.sort());
+
+
+// Objects in JS
+const person = {
+    firstName: 'Frank',
+    lastName: 'Elias',
+    age: 19,
+    location: ['planet', ['Earth']],
+    isProgrammer: true,
+}
+
+console.log(person);
+console.log(typeof person);
+
+// Accessing items from the Object
+// dot notation
+console.log(person.firstName);
+console.log(person.lastName);
+console.log(person.firstName);
+console.log(person.age);
+console.log(person.location);
+console.log(person.isProgrammer);
+
+// bracket notation
+console.log(person["firstName"]);
+
+delete person.age;
+console.log(person)
+
+// challenge
+const car = {
+    type: 'subaru',
+    model: 'toyota',
+    color: 'grey'
+
+}
+
+console.log(typeof car);
+car.type = 'toyota'
+console.log(car)
+
+car.wheels = 4
+
+console.log(car);
+
+// Functions
