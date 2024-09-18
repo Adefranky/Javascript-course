@@ -430,3 +430,41 @@ if (secret >= 8 || secret.includes("Dev")) {
 }
 
 // Arrays - 0 index based
+let fruits = [];
+console.log(fruits);
+const numbers = [1, 2, 3, 4, 6];
+console.log(numbers);
+
+const stringArray = ['eat', 'sleep', 'code', 'repeat'];
+console.log(stringArray);
+
+// Accessing items from an array
+console.log(stringArray[0]);
+console.log(stringArray[1]);
+console.log(stringArray[2]);
+console.log(stringArray[3]);
+console.log(stringArray[4]);
+
+//Two Dimension Array/ nested array - array inside another aray
+const nestArray = ["one", ["two", "three"], 1, 2, true, false];
+console.log(nestArray);
+console.log(nestArray[1]);
+
+const myLetters = ['h', 'e', 'l', 'l', 'o'];
+console.log(myLetters);
+
+// challenge
+const favSingers = ["Obinna", "jose", "Konea"];
+console.log(favSingers[2]);
+
+const favnumbers = [1, 2, 3, 4];
+console.log(favnumbers);
+
+const mixedArr = ["loice"["almer"], 123, true];
+console.log([0]);
+console.log([1]);
+console.log([2]);
+console.log([3]);
+
+
+
