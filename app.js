@@ -581,3 +581,44 @@ function myFunction(x, y) {
 const resp = myFunction(100, 80);
 console.log(resp);
 
+// function declaration
+function sayHello(username) {
+    console.log(`Hello ${username}`);
+}
+
+// function expression
+const greeted = function (user) {
+    console.log(`Hello ${user}`)
+}
+
+greeted("Franky")
+
+// Callback function - providing funtion as an argument to other functions
+
+function showCall(fn) {
+    const value = 10;
+    fn(value)
+}
+
+showCall(function (value) {
+    console.log(value);
+});
+
+function greetm(name, cbc) {
+    console.log(`Hello ${name}`)
+    cbc()
+}
+function cbc() {
+    console.log(`I am callback Funtion`)
+}
+greetm("john", cbc)
+
+// challenge
+function ShawCallFunc(fn) {
+    const value = 10;
+    fn(value)
+
+}
+showCallFunc(function (value) {
+    console.log(value);
+})
