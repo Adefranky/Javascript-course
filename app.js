@@ -553,3 +553,31 @@ car.wheels = 4
 console.log(car);
 
 // Functions
+
+// function declaration
+function greet() {
+    console.log("Hello from a function");
+
+}
+
+greet();
+function sayHello(name) {
+    console.log(`Hello ${name}`);
+}
+sayHello("Franky");
+
+// return keyword in function
+function add(x, y) {
+    return x + y;
+}
+const res = add(10, 20);
+console.log(res);
+
+// challenge
+function myFunction(x, y) {
+    return x * y;
+
+}
+const resp = myFunction(100, 80);
+console.log(resp);
+
