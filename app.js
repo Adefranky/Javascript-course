@@ -695,6 +695,31 @@ console.log(`Minutes: ${minute}`);
 console.log(`Seconds: ${seconds}`);
 console.log(`Milliseconds: ${milliseconds}`);
 
+// setInterval
+// setInterval(() =>
+//     console.log('This function will be executed every 2 seconds.'),
+//     2000
+// );
+
+
+// clear Interval => 
+const intervalId = setInterval(function () {
+    console.log('this function is being executed at an interval ');
+}, 1000)
+console.log(intervalId);
+// stop the interval after 10 seconds
+setTimeout(function () {
+    clearInterval(intervalId)
+    console.log('interval stopped')
+}, 10000)
+
+
+// setTimeOut
+setTimeout(function () {
+    console.log('this function will be executed after 3 seconds');
+
+}, 3000);
+
 
 
 
