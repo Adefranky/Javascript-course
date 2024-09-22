@@ -640,3 +640,23 @@ function showMessage() {
 
 
 showMessage();
+
+// Methods
+// function inside an object
+
+const man = {
+    name: "Frank",
+    age: 30,
+    greet,
+    greet() {
+        return `Hello, my name is ${man.name} and i am ${man.age} years old.`
+
+
+    }
+};
+console.log(man.greet());
+
+
+
+
+
