@@ -619,6 +619,24 @@ function ShawCallFunc(fn) {
     fn(value)
 
 }
-showCallFunc(function (value) {
+ShawCallFunc(function (value) {
     console.log(value);
 })
+
+// Scope
+// scope in js refers to the current context of code which determines the accessibity of variables to js
+// global variable
+let textMessage = "hi";
+console.log(textMessage);
+
+// local variable
+function showMessage() {
+    let textMessage = "Hello";
+    console.log(textMessage);
+}
+
+// console.log(textMessage); => error
+
+
+
+showMessage();
