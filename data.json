@@ -1,0 +1,15 @@
+{
+    "name": "Frank Dev",
+    "age": 27,
+    "email": "alakashf2@gmail.com",
+    "isSubscribed": true,
+    "hobbies": [
+        "Reading",
+        "Running",
+        "Cooking"
+    ],
+    "address": {
+        "city": "New York",
+        "idk": true
+    }
+}

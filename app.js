@@ -656,6 +656,44 @@ const man = {
 };
 console.log(man.greet());
 
+// JSON
+// JSON.stringfy(person);
+// JSON.parse(jsonString)
+// Date and time
+
+// we can pass => year, month, day, hour, minutes , seconds or milliseconds
+const currentDate = new Date(2024, 2, 25, 0, 0);
+console.log(currentDate);
+
+const date = new Date();
+
+// differnt methods of writing the dates
+console.log(date.toDateString());
+console.log(date.toISOString());
+console.log(date.toLocaleString());
+
+// incrementing my dates by one
+date.setDate(date.getDate() + 1);
+console.log(date);
+// to remove one
+date.setDate(date.getDate() - 1);
+console.log(date);
+
+const year = date.getFullYear();
+const month = date.getMonth();
+// const day = date.getDay();
+const hour = date.getHours();
+const minute = date.getMinutes();
+const seconds = date.getSeconds();
+const milliseconds = date.getMilliseconds();
+
+console.log(`Year: ${year}`);
+console.log(`Month: ${month}`);
+console.log(`Day: ${day}`);
+console.log(`Hour: ${hour}`);
+console.log(`Minutes: ${minute}`);
+console.log(`Seconds: ${seconds}`);
+console.log(`Milliseconds: ${milliseconds}`);
 
 
 
